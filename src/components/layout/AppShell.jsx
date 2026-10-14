@@ -14,7 +14,7 @@ const PAGE_TITLES = {
 
 function pageTitle(pathname) {
   if (pathname.startsWith('/entrenar')) return 'Entrenar'
-  return PAGE_TITLES[pathname] || 'GymTech'
+  return PAGE_TITLES[pathname] || 'Forja'
 }
 
 export default function AppShell() {
@@ -23,7 +23,7 @@ export default function AppShell() {
   return (
     <div className="app-shell">
       <div className="border-b border-border bg-surface/90 px-4 py-3 backdrop-blur-xl md:hidden">
-        <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-primary">GymTech</p>
+        <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-primary">Forja</p>
         <p className="mt-0.5 flex items-center gap-2 text-base font-bold text-title">
           <Dumbbell className="h-5 w-5 text-primary" />
           {pageTitle(location.pathname)}

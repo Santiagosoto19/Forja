@@ -6,8 +6,7 @@ export default function Header() {
     <header className="sticky top-0 z-30 hidden border-b border-border bg-surface/90 backdrop-blur-xl md:block">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
         <div>
-          <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-primary">GymTech</p>
-          <p className="text-lg font-bold text-title">Rutina Gym</p>
+          <p className="text-lg font-bold text-title">Forja</p>
         </div>
         <nav className="flex flex-wrap items-center justify-end gap-0.5">
           {NAV_ITEMS.map((item) => {

@@ -38,7 +38,7 @@ export default function Dashboard() {
   return (
     <div className="space-y-4">
       <div>
-        <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-primary">GymTech</p>
+        <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-primary">Forja</p>
         <h1 className="mt-1 flex items-center gap-2 text-3xl font-bold text-title">
           <House className="h-7 w-7 text-primary" />
           Hola, {user.name || 'atleta'}

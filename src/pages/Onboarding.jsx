@@ -52,7 +52,7 @@ export default function Onboarding() {
   return (
     <div className="app-shell px-4 py-8">
       <div className="page-enter mx-auto max-w-3xl">
-        <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-primary">GymTech</p>
+        <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-primary">Forja</p>
         <h1 className="mt-2 text-3xl font-bold text-title">Configura tu perfil de atleta</h1>
         <p className="mt-2 mb-6 text-secondary">
           Racha, asistencia y calorías de sesión. Sin membresías ni pagos: solo tu entrenamiento.

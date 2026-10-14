@@ -54,7 +54,7 @@ function LoadError({ error, onRetry }) {
   return (
     <div className="app-shell flex min-h-dvh items-center justify-center px-4 py-8">
       <Card className="w-full max-w-xl p-6">
-        <p className="text-sm font-semibold text-danger">GymTech</p>
+        <p className="text-sm font-semibold text-danger">Forja</p>
         <h1 className="mt-1 text-2xl font-bold text-title">No se pudo cargar</h1>
         <p className="mt-3 text-sm text-secondary">{error}</p>
         {onRetry ? (
