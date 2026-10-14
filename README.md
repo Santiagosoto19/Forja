@@ -18,10 +18,6 @@ Abre **http://127.0.0.1:5173** (preferible en LibreWolf). El HMR apunta a `127.0
 
 Solo la API: `npm run server`.
 
-## PWA
-
-Tema oscuro (`theme_color` `#0A0A0A`). Manifest en `public/manifest.webmanifest` (nombre GymTech / Rutina Gym, `display: standalone`). Tras `npm run build` + `npm run preview` puedes instalarla en el móvil. El service worker solo se registra en producción y falla en silencio si el navegador lo bloquea (LibreWolf).
-
 ## Catálogo externo de ejercicios
 
 El seed PPL local se queda en `GET /api/state`. El dataset de [hasaneyldrm/exercises-dataset](https://github.com/hasaneyldrm/exercises-dataset) **no** se mete en el state (son ~1324 filas). Vive en la tabla `exercises` con `source=dataset` e ids `ext_<id>` y se consulta con `GET /api/exercises?q=&muscle=&limit=`.
